@@ -803,7 +803,7 @@ padding-bottom: 40px;
     position: relative;
     margin: 45px 0;
     padding: 120px 0;
-    background: linear-gradient(rgba(199, 49, 128, 1), rgba(73, 28, 114, .5), rgba(73, 28, 114, 1)), url("https://github.com/Marakisiya/Noor_Braiding/tree/main/img/review bg.jpg");
+    background: linear-gradient(rgba(199, 49, 128, 1), rgba(73, 28, 114, .5), rgba(73, 28, 114, 1)), url("main/img/review bg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1117,7 +1117,7 @@ padding-bottom: 40px;
 }
 
 .contact .container-fluid {
-    background: url("https://github.com/Marakisiya/Noor_Braiding/tree/main/img/contact 2.jpg") left center no-repeat;
+    background: url("main/img/contact 2.jpg") left center no-repeat;
     background-size: contain;
 }
 
