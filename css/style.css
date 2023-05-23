@@ -617,6 +617,12 @@ position: relative;
 }
 
 
+.about .about-item text-center p {
+	padding: 0 2px 0 2px;
+ text-align: justify;
+  text-justify: inter-word;
+}
+
 
 @media (max-width: 767.98px) {
     .about .about-img {
