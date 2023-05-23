@@ -1126,6 +1126,7 @@ padding-bottom: 40px;
 }
 
 .contact .contact-form {
+    width: 100%;
     position: relative;
     padding: 90px 0 90px 45px;
     background: #f9c7e3;
