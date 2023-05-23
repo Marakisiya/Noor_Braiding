@@ -1330,6 +1330,7 @@ width: 200px;
 background-color: #cfbae5 !important;
 color:#491c72 !important;
 transition: all .3s;
+ text-align: center;
 }
 
 #submit input:hover{
