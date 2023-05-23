@@ -1122,15 +1122,14 @@ padding-bottom: 40px;
 
 .contact .container-fluid {
     background: url("../img/contact 1.jpg") left center no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .contact .contact-form {
     position: relative;
-    width: 100%;
     padding: 90px 0px 90px 45px;
     background: #f9c7e3;
-    background-size: contain;
+    background-size: cover;
 }
 
 .contact .contact-form input {
