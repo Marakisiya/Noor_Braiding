@@ -16,7 +16,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #c73180;
+    color: #c73180;f
 }
 
 a {
@@ -1121,7 +1121,7 @@ padding-bottom: 40px;
 }
 
 .contact .container-fluid {
-    background: url("../img/contact 2.jpg") left center no-repeat;
+    background: url("../img/contact 1.jpg") left center no-repeat;
     background-size: contain;
 }
 
