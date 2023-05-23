@@ -1126,8 +1126,8 @@ padding-bottom: 40px;
 }
 
 .contact .contact-form {
-    position: relative;
-    padding: 90px 0px 90px 45px;
+  position: relative;
+    padding: 90px 90px 90px 90px;
     background: #f9c7e3;
     background-size: cover;
 }
