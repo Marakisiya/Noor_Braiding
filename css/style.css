@@ -617,11 +617,7 @@ position: relative;
 }
 
 
-.about .about-item text-center p {
-	padding: 0 2px 0 2px;
- text-align: justify;
-  text-justify: inter-word;
-}
+
 
 
 @media (max-width: 767.98px) {
@@ -663,6 +659,12 @@ border: none;
 .about-item p {
 margin-top: 20px;
 padding-bottom: 40px;
+}
+
+.about-item text-center p {
+padding: 0 2px 0 2px;
+ text-align: justify;
+ text-justify: inter-word;
 }
 
 
