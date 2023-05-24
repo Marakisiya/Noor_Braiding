@@ -508,8 +508,13 @@ Walk-in on Mondays and get a flat 15% off on any hair braids style.
         <script src="lib/lightbox/js/lightbox.min.js"></script>
        
         <!-- Contact Javascript File -->
-        <script src="mail/jqBootstrapValidation.min.js"></script>
-        <script src="mail/contact.js"></script>
+ <script type="text/javascript">var submitted=false;</script>
+<script type="text/javascript">
+$('#contactForm').on('submit', function(e) {
+  $('#contactForm *').fadeOut(2000);
+  $('#contactForm').prepend('Your message is delivered....Thank you for contacting us, we will get back to you shortly!');
+  });
+</script>
 
         <!-- Noor_Braiding Website Javascript -->
         <script src="js/main.js"></script>
