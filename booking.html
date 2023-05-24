@@ -114,22 +114,22 @@
 		</div>
 		
 		<div class="main-form">
-		<form action="index.php" method="get">
+		<form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdGSdbWPiSLECsjj5TpOT4Me_AjvzoMHMK4j0YaUmETNe_ewg/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
 	<div>
 		<span>Name</span>
-		<input type="text" name="name" id="name" placeholder="write your name here---"  required>
+		<input type="text" name="entry.581554421" id="entry.581554421" placeholder="write your name here---"  required>
 	</div>
 			
 		<div>
 		<span>Email</span>
-		<input type="email" name="name" id="name" placeholder="write your email here---" required>
+		<input type="email" name="entry.1585061237" id="entry.1585061237" placeholder="write your email here---" required>
 	</div>
 			
 			
 			<div>
 			<!--this is the select option--->	
 		       <span>Services</span>
-		<select type="people"  id="people"  required>
+		<select type="people" name="entry.27976907"  id="entry.27976907"  required>
 			<option value=""><--services--> </option>
 			<option value="1">Box Braids </option>
 			<option value="2">Bob</option>
@@ -152,7 +152,7 @@
 			<div>
 			<!--this is the select option--->	
 		       <span>Time</span>
-		<select type="people"  id="people"  required>
+		<select type="people" name="entry.382392598" id="entry.382392598"  required>
 			<option value=""><--time--> </option>
 			<option value="1">8:00 </option>
 			<option value="2">9:00</option>
@@ -174,11 +174,11 @@
 			
 			<div>
 		<span>Date</span>
-		<input type="date" name="date" id="date" placeholder="date" required> 
+		<input type="date" name="entry.1888447727" id="entry.1888447727" placeholder="date" required> 
 	</div>
 			<div>
 		<span>Phone Number</span>
-		<input type="number" name="number" id="number" placeholder="write your number here--" required >
+		<input type="number" name="entry.897243856" id="entry.897243856" placeholder="write your number here--" required >
 	</div>
 			
 			
@@ -264,8 +264,13 @@
         <script src="lib/lightbox/js/lightbox.min.js"></script>
 
         <!-- Contact Javascript File -->
-        <script src="mail/jqBootstrapValidation.min.js"></script>
-        <script src="mail/contact.js"></script>
+        <script type="text/javascript">var submitted=false;</script>
+	<script type="text/javascript">
+	$('#gform').on('submit', function(e) {
+ 	 $('#gform *').fadeOut(2000);
+  	$('#gform').prepend('Your submission has been processed...');
+ 	 });
+	</script>
 
         <!-- Norr_Braiding Website Javascript -->
         <script src="js/main.js"></script>
