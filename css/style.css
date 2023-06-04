@@ -336,7 +336,7 @@ margin-bottom: 25px;
 @media (max-width: 991.98px) {
 .hero{
 
-width: 80%;
+width: 100%;
 }
     .hero .hero-text {
         padding-left: 15px;
@@ -349,6 +349,7 @@ letter-spacing: .3rem;
    
     .hero .hero-text h1 {
         font-size: 60px;
+	line-height: 90px;    
     }
    
 .hero .hero-text h2{
@@ -370,7 +371,7 @@ margin-bottom: 20px;
 
 .hero{
 
-width: 50%;
+width: 100%;
 }
 
     .hero .hero-text span {
@@ -380,7 +381,7 @@ letter-spacing: .2rem;
     }
    
     .hero .hero-text h1 {
-        font-size: 14px;
+        font-size: 40px;
     }
    
 .hero .hero-text h2{
@@ -403,10 +404,15 @@ margin-bottom: 15px;
 
 width: 100%;
 }
-    .hero .hero-text h1 {
-        font-size: 12px;
+	.hero .hero-text span {
+        font-size: 10px;
         font-weight: 600;
-line-height: 2px;
+	letter-spacing: .2rem;
+    }
+    .hero .hero-text h1 {
+        font-size: 30px;
+        font-weight: 600;
+line-height: 40px;
     }
     .hero .hero-text h2{
 color:#1e1e1e;
