@@ -349,7 +349,7 @@ letter-spacing: .3rem;
    
     .hero .hero-text h1 {
         font-size: 60px;
-	line-height: 90px;    
+	line-height: 70px;    
     }
    
 .hero .hero-text h2{
@@ -382,6 +382,9 @@ letter-spacing: .2rem;
    
     .hero .hero-text h1 {
         font-size: 40px;
+        font-weight: 600;
+        line-height: 50px;
+	    
     }
    
 .hero .hero-text h2{
